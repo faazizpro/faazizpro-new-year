@@ -55,7 +55,8 @@ header{
     font-size: 20px;
     font-weight: 600;
     padding: 18px 25px;
-    border: none
+    border: none;
+    cursor: pointer;
 }
 /* 
 -------------------
@@ -174,7 +175,27 @@ Call to Action Section Ends
 ---------------------------
 */
 
+.call-me{
+    margin: 135px 0;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url(../images/watch.png);
+}
 
+.child-contact{
+    padding-left: 64px;
+}
+
+.child-contact h2{
+    margin-bottom: 24px;
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
 
 /* 
 ---------------------------
