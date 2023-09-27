@@ -4,3 +4,61 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* 
+---------------------
+Header Section Starts
+---------------------
+*/
+header{
+    background: url(../images/banner.png);
+    height: 808px;
+    flex-shrink: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-div{
+    margin-right: 200px;
+}
+
+.right-div h1{
+    width: 525px;
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.right-div p{
+    width: 494px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 25px;
+    border: none
+}
+/* 
+-------------------
+Header Section Ends
+-------------------
+*/
