@@ -209,8 +209,55 @@ Footer Section Starts
 ---------------------
 */
 
+footer{
+    /* height: 500px; */
+    background-color: #151414;
+}
 
+.footer{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
 
+.footer-info h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+    margin-bottom: 24px;
+}
+
+.footer-contact h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    width: 325px;
+    height: 64px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding-left: 20px;
+}
+input:focus{
+    outline: none;
+}
 /* 
 -------------------
 Footer Section Ends
