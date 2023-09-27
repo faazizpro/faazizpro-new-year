@@ -71,13 +71,14 @@ Failure Section Starts
 
 main{
     width: 1140px;
-    margin: 140px auto;
+    margin: 100px auto;
 }
 
 .failure{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 140px 0;
     /* gap: 50px; */
 }
 
@@ -121,5 +122,25 @@ main{
 /* 
 --------------------
 Failure Section Ends
+--------------------
+*/
+
+/* 
+--------------------
+My PLan Section Ends
+--------------------
+*/
+
+.plans h2{
+    color:  #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/* 
+--------------------
+My Plan Section Ends
 --------------------
 */
